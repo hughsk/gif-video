@@ -1,0 +1,39 @@
+{
+  "name": "gif-video",
+  "description": "Convert a GIF image into an HTML5-ready video for considerably better file sizes",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {
+    "multipipe": "0.0.1",
+    "streamify": "~0.2.2",
+    "through2": "~0.4.1",
+    "stopmotion": "0.0.0",
+    "gif-explode": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/gif-video"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/gif-video/issues"
+  },
+  "homepage": "https://github.com/hughsk/gif-video",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "gif",
+    "video",
+    "convert",
+    "conversion",
+    "streaming",
+    "webm",
+    "html5",
+    "optimisation"
+  ]
+}
