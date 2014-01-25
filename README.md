@@ -22,6 +22,10 @@ fs.createReadStream('input.gif')
   .pipe(fs.createWriteStream('output.webm'))
 ```
 
+`options` will be passed onto the
+[stopmotion](http://github.com/hughsk/stopmotion) module, with the exception
+of `inputCodec` which is forced to be `gif`.
+
 ## License ##
 
 MIT. See [LICENSE.md](http://github.com/hughsk/gif-video/blob/master/LICENSE.md) for details.
