@@ -12,7 +12,9 @@
     "gif-explode": "0.0.0"
   },
   "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "test": "node test/test"
+  },
   "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
   "license": "MIT",
   "repository": {
