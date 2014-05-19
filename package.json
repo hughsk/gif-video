@@ -5,11 +5,11 @@
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
+    "gif-explode": "0.0.1",
     "multipipe": "0.0.1",
+    "stopmotion": "git://github.com/hughsk/stopmotion",
     "streamify": "~0.2.2",
-    "through2": "~0.4.1",
-    "stopmotion": "0.0.0",
-    "gif-explode": "0.0.1"
+    "through2": "~0.4.1"
   },
   "devDependencies": {},
   "scripts": {
