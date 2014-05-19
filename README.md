@@ -26,6 +26,16 @@ fs.createReadStream('input.gif')
 [stopmotion](http://github.com/hughsk/stopmotion) module, with the exception
 of `inputCodec` which is forced to be `gif`.
 
+## Dependency on FFmpeg ##
+
+`gif-video` depends on you having [ffmpeg](http://www.ffmpeg.org/) in your path,
+with support for [webm](http://en.wikipedia.org/wiki/WebM) enabled. You can do
+this easily using [homebrew](http://brew.sh):
+
+``` bash
+brew install ffmpeg --with-libvpx --with-libvorbis --with-fdk-aacc
+```
+
 ## License ##
 
 MIT. See [LICENSE.md](http://github.com/hughsk/gif-video/blob/master/LICENSE.md) for details.
